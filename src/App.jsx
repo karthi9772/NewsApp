@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import NewsBoard from "./components/NewsBoard";
 
 const App = () => {
-  const [category, setCategory] = useState("latest");
+  const [category, setCategory] = useState("general");
   return (
     <div>
       <NavBar setCategory={setCategory}></NavBar>
